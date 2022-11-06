@@ -1,7 +1,7 @@
 variable "principal" {
   description = "The principal to associate with the resource share. Possible values are an AWS account ID, an AWS Organizations Organization ARN, or an AWS Organizations Organization Unit ARN."
   type        = string
-  default     = "916346139147"
+  default     = "xxxxxxxxx"
 }
 
 // variable "resource_share_arn" {
