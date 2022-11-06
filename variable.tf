@@ -4,14 +4,16 @@ variable "principal" {
   default     = "xxxxxxxxx"
 }
 
-// variable "resource_share_arn" {
-//   description = "ARN of the resource share"
-//   type        = string
-// }
-
 variable "aws_region" {
   type    = string
-  default = ""
+  default = "us-east-1"
+}
+
+
+variable "outpost-name" {
+  type = string
+  description = "Optionally Create resource"
+  default = "AB"
 }
 
 variable "resource-share-names" {
